@@ -28,7 +28,7 @@ git clone https://github.com/singularityhub/sregistry
 cd sregistry
 ```
 
-For the files linked below, you should find the correspoinding file in the Github repository that you cloned. If you are setting this up for the first time, it's recommended to try locally and then move onto your production resource.
+For the files linked below, you should find the corresponding file in the Github repository that you cloned. If you are setting this up for the first time, it's recommended to try locally and then move onto your production resource.
 
 ## Settings
 
@@ -70,7 +70,7 @@ ENABLE_GITLAB_AUTH=False
 
 and you will need at least one to log in. I've found that Twitter works the fastest and easiest, and then Github and Google. All avenues are extremely specific with regard to callback urls, so you should be very careful in setting them up. 
 
-Other authentication methods, such as LDAP, are implemented as [plugins](https://singularityhub.github.io/sregistry/plugins/) to sregistry. See the [plugins documentation](https://singularityhub.github.io/sregistry/plugins/) for details on how to configure these.
+Other authentication methods, such as LDAP, are implemented as [plugins](https://singularityhub.github.io/sregistry/plugins) to sregistry. See the [plugins documentation](https://singularityhub.github.io/sregistry/plugins) for details on how to configure these.
 
 We will walk through the setup of each in detail. For all of the below, you should put the content in your `secrets.py` under settings. Note that if you are deploying locally, you will need to put localhost (127.0.0.1) as your domain, and Twitter was the only one that worked reliably without an actual domain for me.
 
